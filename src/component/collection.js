@@ -4,11 +4,13 @@ import { WebNote } from "./note";
 
 const InputBox = styled.div`
     background: #fffdee;
+    width: auto;
     position: absolute;
     top: 10px;
 `;
 const CollectionList = styled.div`
     background: #fffdee;
+    width: 350px;
     position: absolute;
     top: 150px;
 `;

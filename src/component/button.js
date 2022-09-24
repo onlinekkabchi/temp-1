@@ -1,13 +1,13 @@
 function WebButton(props) {
     const buttonStyle = {
         height: "100px",
-        width: "200px",
+        width: "100px",
         background: "#CCD5AE",
         display: "flex",
         alignItems: "center",
         justifyContent: "center",
         cursor: "-webkit-grabbing",
-        left: `${props.buttonStartPosition}`,
+        left: `${props.buttonstart}`,
         visibility: `${props.showWebButtonTag}`,
         position: "absolute",
         zIndex: 1,

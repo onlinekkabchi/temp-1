@@ -49,7 +49,6 @@ function WebNote(props) {
     };
 
     const noteStyle = {
-        width: "725px",
         height: "100px",
         background: longPressTriggered ? "#CCD5AE" : "#E9EDC9",
         display: "flex",
@@ -77,7 +76,7 @@ function WebNote(props) {
             ) : (
                 <WebButton
                     showWebButtonTag={showWebButton}
-                    buttonStartPosition={"550px"}
+                    buttonstart={"250px"}
                     removeButton={removeThisNote}
                 >
                     이 삭제버튼은 5초 후 사라집니다. 짜잔.
