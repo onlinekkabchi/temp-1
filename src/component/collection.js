@@ -3,11 +3,12 @@ import styled from "styled-components";
 import { WebNote } from "./note";
 
 const InputBox = styled.div`
+    background: #fffdee;
     position: absolute;
     top: 10px;
 `;
 const CollectionList = styled.div`
-    background: #f6f6f6;
+    background: #fffdee;
     position: absolute;
     top: 150px;
 `;
